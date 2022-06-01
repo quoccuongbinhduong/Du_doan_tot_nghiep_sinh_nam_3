@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xây dựng mô hình</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <script src="../static/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script src="../static/js/goiham.js"></script>
+    <link rel="stylesheet" href="../static/css/mui.min.css">
+    <script src="../static/js/mui.min.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+</head>
+<body>
+<div class="container-md">
+    <h2 class="fw-bold text-center text-uppercase">xây dựng mô hình dự đoán</h2>
+    <div style="height: 1px;width: 100%;background-color: #bfbebe"></div>
+    <div class="container py-5">
+        <p class="text-center mb-4 fw-bold h5 text-dark">Phân chia theo tỷ lệ mẫu</p>
+        <div class="">
+            <table class="table table-bordered mb-5">
+                <thead>
+                <tr>
+                    <th scope="col">Tỷ lệ</th>
+                    <th scope="col">Phương pháp</th>
+                    <th scope="col">Accuracy</th>
+                    <th scope="col">AUC</th>
+                </tr>
+                </thead>
+                <tbody id="tyleTable">
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
+        <p class="text-center mb-4 fw-bold h5 text-dark">Phân chia theo K-Fold</p>
+        <div class="">
+            <table class="table table-bordered mb-5">
+                <thead>
+                <tr>
+                    <th scope="col">K</th>
+                    <th scope="col">Phương pháp</th>
+                    <th scope="col">Accuracy</th>
+                    <th scope="col">AUC</th>
+                </tr>
+                </thead>
+                <tbody id="kFoldTable">
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="d-flex w-75 m-lg-auto flex-column mt-5">
+            <p class="text-center mt-4">Biểu đồ so sánh kết quả các mô hình theo tỉ lệ test/train</p>
+            <img src="../static/img/SoSanhCacModell.png" height="auto" width="100%" alt="So sánh các mô hình"/>
+            <p class="text-center mt-4">Biểu đồ so sánh kết quả các mô hình theo Kfold</p>
+            <img src="../static/img/SoSanhCacModellKfold_5.png" height="auto" width="100%" alt="So sánh các mô hình"/>
+<!--            <img src="../static/img/SoSanhCacModellKfold_10.png" height="auto" width="100%" alt="So sánh các mô hình"/>-->
+</div>
+</body>
+</html>

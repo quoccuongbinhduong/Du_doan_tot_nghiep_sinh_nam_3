@@ -1,0 +1,31 @@
+.btn:focus {
+    text-decoration: none;
+    outline: none;
+    border:none;
+}
+
+button:focus {
+    text-decoration: none!important;
+    outline: none!important;
+}
+
+ul {
+    list-style: none
+}
+
+a:hover,
+a:focus,button:hover,button:focus {
+    text-decoration: none!important;
+}
+
+.divider {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 1px;
+    overflow: hidden;
+    background: #e9ecef;
+}
+
+span {
+    font-size: .9rem;
+}

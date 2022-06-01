@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto', sans-serif!important;
+    margin: 0;
+    padding: 0;
+}
+
+.background-custom {
+    background-image: url("../img/nen.jpg")!important;
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-color:#000c26;
+
+
+}
+
+
+.css-100 {
+    background-color: #fff;
+    border: 1px solid #dadce0;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    margin: 7px;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);
+    transition: box-shadow 200ms cubic-bezier(0.4,0.0,0.2,1);
+    cursor: pointer;
+}
+
+.css-100:hover {
+    background-color: #fafafa;
+}
+
+.shadow-strong {
+
+    border-radius: 4px;
+    width:1260px;
+    height: 500px;
+
+}

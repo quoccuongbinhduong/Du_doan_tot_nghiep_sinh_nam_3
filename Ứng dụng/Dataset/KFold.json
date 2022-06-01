@@ -1,0 +1,32 @@
+[
+  {
+    "Accuracy": 0.9777777777777779,
+    "AUC": 0.04444444444444447,
+    "PhuongPhap": "DecisionTreeClassifier",
+    "K": 5
+  },
+  {
+    "Accuracy": 0.8638888888888889,
+    "AUC": 0.08258927081843613,
+    "PhuongPhap": "LogisticRegression",
+    "K": 5
+  },
+  {
+    "Accuracy": 0.8861111111111111,
+    "AUC": 0.07049209744694176,
+    "PhuongPhap": "KNeighborsClassifier",
+    "K": 5
+  },
+  {
+    "Accuracy": 0.8638888888888889,
+    "AUC": 0.1084401183107952,
+    "PhuongPhap": "SVM",
+    "K": 5
+  },
+  {
+    "Accuracy":  0.9527777777777778,
+    "AUC": 0.05800170282728085,
+    "PhuongPhap": "ExtraTreeClassifier",
+    "K": 5
+  }
+]

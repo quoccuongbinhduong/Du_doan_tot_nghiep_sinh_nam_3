@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khảo sát tương quan</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+    <script src="../static/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/js/main.js"></script>
+    <script src="../static/js/goiham.js"></script>
+    <link rel="stylesheet" href="../static/css/mui.min.css">
+    <script src="../static/js/mui.min.js"></script>
+    <link rel="stylesheet" href="../static/css/reset.css">
+    <link rel="stylesheet" href="../static/css/custom.css">
+</head>
+<body >
+<div class="container-md">
+    <h2 class="fw-bold text-center text-uppercase">Xác định đặc trưng</h2>
+    <div style="height: 1px;width: 100%;background-color: #bfbebe"></div>
+    <div class="container py-5">
+        <p class="text-center mb-4 fw-bold h5 text-dark">Sự tương quan giữa các yếu tố đến sự tốt nghiệp của sinh viên đúng hay không đúng tiến độ của chương trình</p>
+        <p class="text-center mb-4 fw-bold h5 text-dark">Hệ thống thông tin</p>
+        <div class="">
+            <table class="table table-bordered mb-5 clo">
+                <thead>
+                <tr>
+                    <th scope="col">Yếu tố</th>
+                    <th scope="col">Hệ số Pearson</th>
+                    <th scope="col">Hệ số Spearman</th>
+                </tr>
+                </thead>
+                <tbody id="tqTable">
+                </tbody>
+            </table>
+        </div>
+        <br>
+        <br>
+        <div class="d-flex flex-column align-items-center mb-4">
+            <img  src="../static/img/pearson.png" height="auto" width="100%" alt="Hệ số tương quan"/>
+            <p class="text-center mt-4">Biểu đồ tương quan của các đặc trưng bằng Pearson</p>
+        </div>
+        <br>
+        <br>
+        <div class="d-flex flex-column align-items-center mb-4">
+            <img  src="../static/img/spearman.png" height="auto" width="100%" alt="Hệ số tương quan"/>
+            <p class="text-center mt-4">Biểu đồ tương quan của các đặc trưng bằng Spearman</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

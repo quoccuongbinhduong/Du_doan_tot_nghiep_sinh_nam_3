@@ -1,0 +1,14 @@
+name = "QuocCuong"
+labels = ['DRL_1','DRL_2','DRL_3','DRL_TB',	'DTBN_1','DTBN_2','DTBN_3','So_gio_lam_them','So_mon_chua_hoc','So_mon_chua_chua_tra_no','DTBTL']
+fullLabel2 = ['DTBN_1','DTBN_2','DTBN_3','So_gio_lam_them','So_mon_chua_hoc','So_mon_chua_chua_tra_no','DTBTL']
+full_labels = ['DRL_1','DRL_2','DRL_3','DRL_TB','DTBN_1','DTBN_2','DTBN_3','So_gio_lam_them','So_mon_chua_hoc','So_mon_chua_chua_tra_no','DTBTL']
+data_link = f"./Dataset/DataD17.csv"
+data_label_link = f"./Dataset/Label.json"
+model_link = f"./Dataset/{name}Model.sav"
+tuongquan_link = f"./Dataset/{name}TuongQuan.json"
+className = "Ket_qua"
+className_t=['DRL_1','DRL_2','DRL_3','DRL_TB',"Ket_qua"]
+tileName="Ti_le"
+labels_name = {'DRL_1':"Điểm rèn luyện năm 1",'DRL_2':"Điểm rèn luyện năm 2",'DRL_3':"Điểm rèn luyện năm 3",'DRL_TB':"Điểm rèn luyện trung bình",'DTBN_1':"Điểm trung bình năm 1",'DTBN_2':"Điểm trung bình năm 2",'DTBN_3':"Điểm trung bình năm 3",'So_gio_lam_them':"Số giờ làm thêm trong 1 tuần",'So_mon_chua_hoc':"Số môn chưa học",'So_mon_chua_chua_tra_no':"số môn chưa trả nợ",'DTBTL':"Điểm trung bình tích lũy"}
+mapClassName = {1: "Đúng tiến độ", 0: "Không đúng tiến độ"}
+data_label_mapping = f"./Dataset/{name}Mapping.json"
